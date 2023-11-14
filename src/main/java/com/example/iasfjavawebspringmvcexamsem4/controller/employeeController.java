@@ -78,7 +78,7 @@ public class employeeController {
 
     @RequestMapping( value = "/delete/{id}", method = RequestMethod.GET)
     public String delete(@PathVariable("id") Integer id , ModelMap modelMap){
-        String view = "redirect:/student/liststudent";
+        String view = "redirect:/employee/listemployee";
         try {
             employeeService.deleteEmployeeById(id);
         } catch (Exception ex) {

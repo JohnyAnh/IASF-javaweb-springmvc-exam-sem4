@@ -98,7 +98,7 @@
             <div >
                 <button type="submit"  class="btn btn-warning">Update</button>
 <%--                Hai nut button nao cung dc--%>
-                <button formaction="/student/update"  class="btn btn-warning">Update</button>
+                <button formaction="/employee/update"  class="btn btn-warning">Update</button>
 <%--                <button formaction="/customer/create"  class="btn btn-success">Create</button>--%>
 <%--                <button formaction="/customer/update"  class="btn btn-warning">Update</button>--%>
 <%--                <button formaction="/customer/delete"  class="btn btn-danger">Delete</button>--%>
